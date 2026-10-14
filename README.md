@@ -1,6 +1,6 @@
 # Lingbot VLA / 天池 532514 训练代码
 
-当前默认：**基础 BC 训练**（`v0.1.0-bc`）。三版共享当前训练实现，版本标签固定不同实验的默认配置。
+当前默认：**RTC 续训**（`v0.2.0-rtc-continue`）。三版共享当前训练实现，版本标签固定不同实验的默认配置。
 
 |版本|初始化|epoch / update|RTC|图像裁剪 / 逐关节dropout|expert输出dropout|
 |---|---|---|---|---|---|
@@ -52,10 +52,10 @@ RTC续训应复用基础训练的split和norm，使用完整HF模型初始化新
 选择配方并生成本机路径配置（所有路径也可填共享盘的绝对路径）：
 
 ```bash
-python scripts/configure.py --profile bc_baseline \
+python scripts/configure.py --profile rtc_continue \
   --base-model /path/to/base_or_finetuned_hf_model \
   --dataset /path/to/RoboTwin_lerobot_v21 \
-  --output /path/to/persistent/outputs/bc_baseline
+  --output /path/to/persistent/outputs/rtc_continue
 python -m training.preflight --cpu-only --config configs/runtime.json
 NUM_GPUS=4 bash scripts/train.sh
 ```
