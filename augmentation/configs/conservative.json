@@ -1,0 +1,22 @@
+{
+  "name": "clean_color_and_joint_noise_v1",
+  "base_seed": 532514,
+  "image_keys": [
+    "observation.images.cam_high",
+    "observation.images.cam_left_wrist",
+    "observation.images.cam_right_wrist"
+  ],
+  "color": {
+    "probability": 0.8,
+    "brightness": [0.9, 1.1],
+    "contrast": [0.9, 1.1],
+    "saturation": [0.95, 1.05]
+  },
+  "state": {
+    "probability": 0.5,
+    "std_fraction": 0.01,
+    "max_sigma_radians": 0.005,
+    "clip_sigma": 3.0
+  },
+  "instruction_replacement": false
+}

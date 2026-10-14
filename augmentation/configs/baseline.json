@@ -1,0 +1,17 @@
+{
+  "name": "clean_no_augmentation",
+  "base_seed": 532514,
+  "color": {
+    "probability": 0.0,
+    "brightness": [1.0, 1.0],
+    "contrast": [1.0, 1.0],
+    "saturation": [1.0, 1.0]
+  },
+  "state": {
+    "probability": 0.0,
+    "std_fraction": 0.0,
+    "max_sigma_radians": 0.0,
+    "clip_sigma": 0.0
+  },
+  "instruction_replacement": false
+}

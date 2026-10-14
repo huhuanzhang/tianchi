@@ -1,0 +1,13 @@
+.git
+.venv*
+__pycache__
+data
+downloads
+outputs
+logs
+dist
+models/lingbot-vla*
+training/artifacts
+training/runs
+augmentation/artifacts
+configs/runtime*.json

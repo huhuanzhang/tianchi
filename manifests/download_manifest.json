@@ -1,0 +1,286 @@
+{
+  "competition_id": 532514,
+  "model_repo": "robbyant/lingbot-vla-v2-6b",
+  "model_revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+  "dataset_repo": "TianxingChen/RoboTwin2.0",
+  "dataset_revision": "3dc3b798668feb99ac61cc9086d84cbcc3d79186",
+  "dataset_source": "Official RGB-fixed joint-legal demo_clean, LeRobot v2.1 export, 2500 episodes. Training data only; no randomized data.",
+  "files": [
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": ".gitattributes",
+      "local_path": "models/lingbot-vla-v2-6b/.gitattributes",
+      "size": 1797,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "1f652735ddd4e0c09ef277872f717c63c8b58f24"
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "README.md",
+      "local_path": "models/lingbot-vla-v2-6b/README.md",
+      "size": 2227,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "be90760c49c132460b18fed4e9327ef326a697ee"
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "added_tokens.json",
+      "local_path": "models/lingbot-vla-v2-6b/added_tokens.json",
+      "size": 707,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "b54f9135e44c1e81047e8d05cb027af8bc039eed"
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "assets/lingbot_vla2_framework.png",
+      "local_path": "models/lingbot-vla-v2-6b/assets/lingbot_vla2_framework.png",
+      "size": 1178043,
+      "expected_sha256": "1dbbf05745216032dad897f6f5e59d02153325e1d39cfc01329b85e2ea2e41e7",
+      "expected_git_blob_sha1": null
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "assets/lingbot_vla2_loss_mse_comparison.png",
+      "local_path": "models/lingbot-vla-v2-6b/assets/lingbot_vla2_loss_mse_comparison.png",
+      "size": 445663,
+      "expected_sha256": "95108dee5d57842d18be27bf92424123b823449567f3d60cefbbac59379ffedd",
+      "expected_git_blob_sha1": null
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "assets/lingbot_vla2_vis_distillation.png",
+      "local_path": "models/lingbot-vla-v2-6b/assets/lingbot_vla2_vis_distillation.png",
+      "size": 2317830,
+      "expected_sha256": "40ce6810ea47ab944de030551efd7753fb2ed84bd7477d3668ba0fab84c3277e",
+      "expected_git_blob_sha1": null
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "config.json",
+      "local_path": "models/lingbot-vla-v2-6b/config.json",
+      "size": 31,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "69c8d69fb69ea6ef5740c524ade3ffdd1409b4c4"
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "depth/model.pt",
+      "local_path": "models/lingbot-vla-v2-6b/depth/model.pt",
+      "size": 1316220456,
+      "expected_sha256": "d70c5191eab853d436763b35d40ff99d13534b4bcd43e4d02823656968159e5b",
+      "expected_git_blob_sha1": null
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "dino_video/config.yaml",
+      "local_path": "models/lingbot-vla-v2-6b/dino_video/config.yaml",
+      "size": 1388,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "9223ab64a8e0081cd46446381dc4e6dce3a23080"
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "dino_video/teacher_step_10000.pth",
+      "local_path": "models/lingbot-vla-v2-6b/dino_video/teacher_step_10000.pth",
+      "size": 1401509792,
+      "expected_sha256": "086285efd8d65bc66e96b363807c4010ee5c790b7452b765edaa23837a63705b",
+      "expected_git_blob_sha1": null
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "model-00001-of-00006.safetensors",
+      "local_path": "models/lingbot-vla-v2-6b/model-00001-of-00006.safetensors",
+      "size": 4987151072,
+      "expected_sha256": "4afb52b06a13df8b738a156ae5c8196d3bfe6b3ca931cecbd701e44cb9674e45",
+      "expected_git_blob_sha1": null,
+      "download_url": "https://modelscope.cn/api/v1/models/Robbyant/lingbot-vla-v2-6b/repo?Revision=06dc3bdd941a2540c59034f18de5604017ecc0f4&FilePath=model-00001-of-00006.safetensors",
+      "verified_mirror": {
+        "provider": "ModelScope",
+        "file_revision": "06dc3bdd941a2540c59034f18de5604017ecc0f4",
+        "sha256_matches_huggingface": true
+      }
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "model-00002-of-00006.safetensors",
+      "local_path": "models/lingbot-vla-v2-6b/model-00002-of-00006.safetensors",
+      "size": 4985113408,
+      "expected_sha256": "ec131afa26a340db94c0dba8ec00e990be5f3d842ce6532070f0c8e26a067501",
+      "expected_git_blob_sha1": null,
+      "download_url": "https://modelscope.cn/api/v1/models/Robbyant/lingbot-vla-v2-6b/repo?Revision=06dc3bdd941a2540c59034f18de5604017ecc0f4&FilePath=model-00002-of-00006.safetensors",
+      "verified_mirror": {
+        "provider": "ModelScope",
+        "file_revision": "06dc3bdd941a2540c59034f18de5604017ecc0f4",
+        "sha256_matches_huggingface": true
+      }
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "model-00003-of-00006.safetensors",
+      "local_path": "models/lingbot-vla-v2-6b/model-00003-of-00006.safetensors",
+      "size": 4928593216,
+      "expected_sha256": "7dccb068ca66c11fa514476d64661eeead56e2e80e1c0572c9ea82aa0d9ecf27",
+      "expected_git_blob_sha1": null,
+      "download_url": "https://modelscope.cn/api/v1/models/Robbyant/lingbot-vla-v2-6b/repo?Revision=06dc3bdd941a2540c59034f18de5604017ecc0f4&FilePath=model-00003-of-00006.safetensors",
+      "verified_mirror": {
+        "provider": "ModelScope",
+        "file_revision": "06dc3bdd941a2540c59034f18de5604017ecc0f4",
+        "sha256_matches_huggingface": true
+      }
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "model-00004-of-00006.safetensors",
+      "local_path": "models/lingbot-vla-v2-6b/model-00004-of-00006.safetensors",
+      "size": 4990740540,
+      "expected_sha256": "1c2cb78066b69ae11255db851df95071e2cd69a3a4bc5020b3fd3b13b17819fb",
+      "expected_git_blob_sha1": null,
+      "download_url": "https://modelscope.cn/api/v1/models/Robbyant/lingbot-vla-v2-6b/repo?Revision=06dc3bdd941a2540c59034f18de5604017ecc0f4&FilePath=model-00004-of-00006.safetensors",
+      "verified_mirror": {
+        "provider": "ModelScope",
+        "file_revision": "06dc3bdd941a2540c59034f18de5604017ecc0f4",
+        "sha256_matches_huggingface": true
+      }
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "model-00005-of-00006.safetensors",
+      "local_path": "models/lingbot-vla-v2-6b/model-00005-of-00006.safetensors",
+      "size": 4990095864,
+      "expected_sha256": "8fe36bf1f4f617869954bdfa1ad12e16abd8b0235a5fa99c88d571d4cddf4a17",
+      "expected_git_blob_sha1": null,
+      "download_url": "https://modelscope.cn/api/v1/models/Robbyant/lingbot-vla-v2-6b/repo?Revision=06dc3bdd941a2540c59034f18de5604017ecc0f4&FilePath=model-00005-of-00006.safetensors",
+      "verified_mirror": {
+        "provider": "ModelScope",
+        "file_revision": "06dc3bdd941a2540c59034f18de5604017ecc0f4",
+        "sha256_matches_huggingface": true
+      }
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "model-00006-of-00006.safetensors",
+      "local_path": "models/lingbot-vla-v2-6b/model-00006-of-00006.safetensors",
+      "size": 622195024,
+      "expected_sha256": "3cf613d592dad64b1e2a1b1bb34a6f556a7fa05eacdb9972d73e0ea4882555a0",
+      "expected_git_blob_sha1": null,
+      "download_url": "https://modelscope.cn/api/v1/models/Robbyant/lingbot-vla-v2-6b/repo?Revision=06dc3bdd941a2540c59034f18de5604017ecc0f4&FilePath=model-00006-of-00006.safetensors",
+      "verified_mirror": {
+        "provider": "ModelScope",
+        "file_revision": "06dc3bdd941a2540c59034f18de5604017ecc0f4",
+        "sha256_matches_huggingface": true
+      }
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "model.safetensors.index.json",
+      "local_path": "models/lingbot-vla-v2-6b/model.safetensors.index.json",
+      "size": 207389,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "ecd860c133b9b5c77072202d56e3ab38b8e74326"
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "preprocessor_config.json",
+      "local_path": "models/lingbot-vla-v2-6b/preprocessor_config.json",
+      "size": 782,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "2fa6553554f69b4e3a6b742a75264ff9dff90ad0"
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "special_tokens_map.json",
+      "local_path": "models/lingbot-vla-v2-6b/special_tokens_map.json",
+      "size": 613,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "ac23c0aaa2434523c494330aeb79c58395378103"
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "tokenizer.json",
+      "local_path": "models/lingbot-vla-v2-6b/tokenizer.json",
+      "size": 11422654,
+      "expected_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "expected_git_blob_sha1": null
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "tokenizer_config.json",
+      "local_path": "models/lingbot-vla-v2-6b/tokenizer_config.json",
+      "size": 5472,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "35d32052b3bc1bc9493b6cc3d8b0f22acf33dc83"
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "video_preprocessor_config.json",
+      "local_path": "models/lingbot-vla-v2-6b/video_preprocessor_config.json",
+      "size": 817,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "e32b1d90356f74457edbfca27aa1e121dab7cdc7"
+    },
+    {
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "repo_type": "model",
+      "revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+      "remote_path": "vocab.json",
+      "local_path": "models/lingbot-vla-v2-6b/vocab.json",
+      "size": 2776833,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "4783fe10ac3adce15ac8f358ef5462739852c569"
+    },
+    {
+      "repo_id": "TianxingChen/RoboTwin2.0",
+      "repo_type": "dataset",
+      "revision": "3dc3b798668feb99ac61cc9086d84cbcc3d79186",
+      "remote_path": "lerobot_dataset/RoboTwin_lerobot_v21.zip",
+      "local_path": "downloads/RoboTwin_lerobot_v21.zip",
+      "size": 2395762459,
+      "expected_sha256": "98a1d4bfb51d6e90469c9ef8d55e004a2cba01d20374adb68b554e48e9fe2cd8",
+      "expected_git_blob_sha1": null
+    }
+  ]
+}

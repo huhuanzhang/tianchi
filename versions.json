@@ -1,0 +1,17 @@
+{
+  "bc_baseline": {
+    "tag": "v0.1.0-bc",
+    "title": "基础 BC 训练",
+    "config": "training/configs/bc_baseline.json"
+  },
+  "rtc_continue": {
+    "tag": "v0.2.0-rtc-continue",
+    "title": "RTC 续训",
+    "config": "training/configs/rtc_continue.json"
+  },
+  "rtc_fresh": {
+    "tag": "v0.3.0-rtc-fresh-dropout02",
+    "title": "公开基模 RTC 重训 + expert dropout 0.2",
+    "config": "training/configs/rtc_fresh.json"
+  }
+}

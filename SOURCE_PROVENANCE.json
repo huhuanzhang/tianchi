@@ -1,0 +1,63 @@
+{
+  "export_date": "2026-10-14",
+  "upstream_repo": "https://github.com/Robbyant/lingbot-vla-v2",
+  "upstream_commit": "be969b8fd117fb70550c5d4bf4bc328211b5b1b6",
+  "upstream_modified_files": [
+    "lingbotvla/data/__init__.py",
+    "lingbotvla/data/vla_data/__init__.py",
+    "lingbotvla/models/vla/lingbot_vla/configuration_lingbot_vla.py",
+    "lingbotvla/models/vla/lingbot_vla/modeling_lingbot_vla.py",
+    "lingbotvla/models/vla/lingbot_vla/modeling_lingbot_vla_v2.py",
+    "lingbotvla/models/vla/lingbot_vla/qwen2_action_expert.py",
+    "lingbotvla/ops/group_gemm/utils/device.py",
+    "lingbotvla/ops/group_gemm/utils/pretuned.py"
+  ],
+  "copied_project_sources_sha256": {
+    "training/__init__.py": "b3877e8a64bd445aaca8e935dee353cc94c85906c4b1295101e678e083c78aa8",
+    "training/train_server.py": "ebab823a8cdab07370c147bd8a0117b2b45ed646e9e221472260860b754b698f",
+    "training/train_local.py": "031d1f94654c69481e8b24eedd1d7a33493b388412a41fd4d1126db13ec75200",
+    "training/native_model.py": "24bd7ad9c7589cd5c82339320f3d81e212ab20529a25c01b08f174deea63e209",
+    "training/clean_dataset.py": "44d1e554395268e65a2fd46d2ecf02863df4828e5943124d0c514ba742daec2f",
+    "training/distributed_utils.py": "9afbbe0846f52431cb0f4c3c7bd6979d40999a24b8e4f9657c8b64dce8fdab59",
+    "training/rtc.py": "78797cb924063bd1521f8ee8c68c59e7e8e9cc24378f5a67207d24a5a219573f",
+    "training/action_dropout.py": "000bd41a471b932304d91ddd32b8754b3cb5570e4bcdd64cd04aa8b771d09cf9",
+    "training/preflight.py": "97cfab4a8847d48c6283b5fb194f4a36e294e3f93c626502268e2ed9775b331a",
+    "training/prepare_norm.py": "9cae7269c0088d40458d70da4c1f60dab2882eedad91a38904bb2b681b18831f",
+    "training/check_action_dropout.py": "a10073fed7bd2b0d8387a6775cde00a86dcbf35bd15a4e01442880d477980073",
+    "training/test_distributed.py": "e88bf057c0cad71869f56d81dcbe27c95097339612dc0f34375f9d955923f5fd",
+    "training/test_checkpoint.py": "d188db5517db6703f7a150387e61d7623f174ff383ae6c79185bb35593811f5f",
+    "training/test_rtc.py": "2a3d28a0ae47d89ba535d6e8ecc91c43e7b08048d99ea04bd91a67871adae2c5",
+    "augmentation/__init__.py": "74f3fb40972795f9c02ff20b4473f26ddd3e67a891c2b22dce0e155b8d18e385",
+    "augmentation/clean_augment.py": "fe04d6fc882ca35ef22277a47076cfd688a4ee6a167d44f7425b44e0541af610",
+    "augmentation/prepare.py": "76576ed15af4de4e9925215e8a0bcb08bc056807807fc22c84da6998edf2e078",
+    "augmentation/image_crop.py": "0376ab71871c02709955e8093719448afd062f69d51c5349c2c8f7b85ea8f1fc",
+    "augmentation/joint_dropout.py": "9f1138ecbe6683f043b79026ab952c7f5f4e5c544911b7b6c92bd82b9f219d63",
+    "augmentation/test_clean_augment.py": "45b8d1240277eeff71756de56f6d09d91c68d5d273d80784903d26940d94e9b2",
+    "augmentation/test_image_crop.py": "c4f00f0504404252c26d66f1824cfc15e92e79bb66b054d1b6c76de520bfc6c9",
+    "augmentation/test_joint_dropout.py": "dcb9c9cbfea425f81bf7b3d748e68a0a9c64aff0a02792dfe0d933dc0727c5eb",
+    "simulation/__init__.py": "85b822fe8a7a33d9b845fe0ba1df0f9101d61a4972ba421ccd2208a1fc36d047",
+    "simulation/rtc_guidance.py": "af24b415bec44117e53ff28046c62fd20053d961491d67cd2514e4292892a44d",
+    "simulation/rtc_moe.py": "12b0d0d086642b9b2518bd139d27372084f208f8c17c78739e1f67d635a61c40",
+    "simulation/rtc_queue.py": "81cc2d5d017a899450b7da9d31e8461bcc7597cdec741e0252974da0ab575747",
+    "simulation/check_rtc.py": "647a20938d43c31e9923868b8e9201f1fb850b17d3d9e3c17b1d1a2ab2da2c46",
+    "simulation/check_rtc_queue.py": "c32ac04deb7c02d065bc32e74ebc8c8d00f842d00ba462a12cd84382c291eb97"
+  },
+  "upstream_modified_file_sha256": {
+    "lingbotvla/data/__init__.py": "6a62f5f79c9de897f010f59999a53f7af4a13806f46e434ef12f1a6f9fcaf09a",
+    "lingbotvla/data/vla_data/__init__.py": "5c3e5880df1915801f64c957b5b182bcbb9d6ecc85ebaf73a0e4a832b94c9c91",
+    "lingbotvla/models/vla/lingbot_vla/configuration_lingbot_vla.py": "dd215b732e9113b9252d20493e8016918cd6be7a2faa473b2b8b7aad6ec8c85e",
+    "lingbotvla/models/vla/lingbot_vla/modeling_lingbot_vla.py": "63f63149a4d63e80020c46e4aa2d313ed0b65111573bc9d3a641626602b599ac",
+    "lingbotvla/models/vla/lingbot_vla/modeling_lingbot_vla_v2.py": "d6d3e26f410970db0d6e0187e4db5eba7d51e07392e4d57b80b3f40024e83ae8",
+    "lingbotvla/models/vla/lingbot_vla/qwen2_action_expert.py": "98e4a9c3082548eef659e04f7c59ad124c3e0cd6787d44657b817e0c2468b485",
+    "lingbotvla/ops/group_gemm/utils/device.py": "2f3f2839eec07a6853eb069193385640b5cf560af0ed4ae62860aa5d268d7a09",
+    "lingbotvla/ops/group_gemm/utils/pretuned.py": "0afe62a445a21b2ea8c3eec069fe4fdf69422c3eb358d4185f2eb130a0a23e2f"
+  },
+  "export_adjustments": [
+    "portable recipe paths",
+    "tag-aware CLI defaults",
+    "single unified train_server entry for 1-8 GPUs",
+    "CPU checkpoint test fixtures"
+  ],
+  "recipes_share_current_source": true,
+  "runtime_assets_included": false
+}
