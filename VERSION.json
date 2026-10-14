@@ -1,5 +1,5 @@
 {
-  "tag": "v0.2.0-rtc-continue",
-  "profile": "rtc_continue",
-  "title": "RTC 续训"
+  "tag": "v0.3.0-rtc-fresh-dropout02",
+  "profile": "rtc_fresh",
+  "title": "公开基模 RTC 重训 + expert dropout 0.2"
 }
